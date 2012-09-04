@@ -10,3 +10,4 @@ sys.path.append('lib/')
 
 
 ROOT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+DEV = os.environ.get('SERVER_SOFTWARE', "Development").startswith('Development')
