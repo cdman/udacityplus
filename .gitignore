@@ -12,3 +12,5 @@
 *.orig
 .DS_Store
 
+# secrets file
+secrets.py
