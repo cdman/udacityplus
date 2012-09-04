@@ -6,7 +6,7 @@ import sys
 
 
 # fix up pythonpath so that libraries can be directly used
-sys.path.append('lib/')
+sys.path.append('libs')
 
 
 ROOT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))

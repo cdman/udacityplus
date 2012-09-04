@@ -9,6 +9,10 @@ handlers:
   static_dir: static/images
   expiration: 1d
 
+- url: /cron.*
+  script: cron.app
+  login: admin
+
 - url: /.*
   script: main.app
 
