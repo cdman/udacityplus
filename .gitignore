@@ -1,1 +1,14 @@
+# Eclipse files
+.project
+.metadata
+.pydevproject
+.settings
+.externalToolBuilders
+
+# Temp files
+*~
 *.pyc
+*.swp
+*.orig
+.DS_Store
+
